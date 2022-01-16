@@ -9,6 +9,7 @@ function Click() {
       
       const replace = document.getElementById('replace')
       replace.textContent = data.activity;
+      document.body.classList.add('fun')
     })
   
 }
